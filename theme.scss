@@ -1,7 +1,7 @@
 /**
 * Generated theme by Material Theme Generator
 * https://materialtheme.arcsine.dev
-* Fork at: https://materialtheme.arcsine.dev/?c=YHBhbGV0dGU$YHByaW1hcnk$YF48IzAzMWQ0NCIsIj9lcjwjYjNiYmM3IiwiO2VyPCMwMjExMmR$LCIlPmBePCNmYmZmZmUiLCI~ZXI8I2ZlZmZmZiIsIjtlcjwjZjlmZmZlfiwid2Fybj5gXjwjZDMzZjQ5IiwiP2VyPCNmMmM1YzgiLCI7ZXI8I2MyMjkzMX4sIj9UZXh0PCMzOTNkM2YiLCI~PTwjZmJmZmZlIiwiO1RleHQ8I2ZkZmRmZiIsIjs9PCMyYzJjMmN$LCJmb250cz5bYEA8KC00IiwiZmFtaWx5PEpvc3R$LGBAPCgtMyIsImZhbWlseTxKb3N0fixgQDwoLTIiLCJmYW1pbHk8Sm9zdH4sYEA8KC0xIiwiZmFtaWx5PEpvc3R$LGBAPGhlYWRsaW5lIiwiZmFtaWx5PEpvc3QiLCJzaXplPjMwfSxgQDx0aXRsZSIsImZhbWlseTxKb3N0IiwidmFyaWFudDxyZWd1bGFyIiwibGluZUhlaWdodD40MCwic2l6ZT4zMH0sYEA8c3ViKS0yIiwiZmFtaWx5PEpvc3R$LGBAPHN1YiktMSIsImZhbWlseTxKb3N0fixgQDxib2R5LTIiLCJmYW1pbHk8Sm9zdH4sYEA8Ym9keS0xIiwiZmFtaWx5PEpvc3QiLCJ2YXJpYW50PG1lZGl1bX4sYEA8YnV0dG9uIiwiZmFtaWx5PEpvc3R$LGBAPGNhcHRpb24iLCJmYW1pbHk8Sm9zdCIsInNwYWNpbmc$MC4zfSxgQDxpbnB1dCIsImZhbWlseTxKb3N0Iiwic2l6ZT5udWxsfV0sImljb25zPFJvdW5kZWQiLCI~bmVzcz50cnVlLCJ2ZXJzaW9uPjEzfQ==
+* Fork at: https://materialtheme.arcsine.dev/?c=YHBhbGV0dGU$YHByaW1hcnk$YF48IzFmMWQxMCIsIj9lcjwjYmNiYmI3IiwiO2VyPCMxMjExMDl$LCIlPmBePCNiYTVhMzEiLCI~ZXI8I2VhY2VjMSIsIjtlcjwjYTMzZjFmfiwid2Fybj5gXjwjZGI3YzI2IiwiP2VyPCNmNGQ4YmUiLCI7ZXI8I2NkNWYxN34sIj9UZXh0PCMwMDAwMDAiLCI~PTwjZjZmNmY2IiwiO1RleHQ8I2VmZTllNCIsIjs9PCMyYzJjMmN$LCJmb250cz5bYEA8KC00IiwiZmFtaWx5PFBvcHBpbnMiLCJ2YXJpYW50PG1lZGl1bX4sYEA8KC0zIiwiZmFtaWx5PFBvcHBpbnMiLCJ2YXJpYW50PG1lZGl1bX4sYEA8KC0yIiwiZmFtaWx5PFBvcHBpbnMiLCJ2YXJpYW50PG1lZGl1bX4sYEA8KC0xIiwiZmFtaWx5PFBvcHBpbnMiLCJ2YXJpYW50PG1lZGl1bX4sYEA8aGVhZGxpbmUiLCJmYW1pbHk8UG9wcGlucyIsInZhcmlhbnQ8bWVkaXVtfixgQDx0aXRsZSIsImZhbWlseTxQb3BwaW5zfixgQDxzdWIpLTIiLCJmYW1pbHk8UG9wcGlucyIsInZhcmlhbnQ8bWVkaXVtfixgQDxzdWIpLTEiLCJmYW1pbHk8UG9wcGluc34sYEA8Ym9keS0yIiwiZmFtaWx5PFBvcHBpbnMiLCJ2YXJpYW50PD9$LGBAPGJvZHktMSIsImZhbWlseTxQb3BwaW5zIiwidmFyaWFudDw~fixgQDxidXR0b24iLCJmYW1pbHk8UG9wcGluc34sYEA8Y2FwdGlvbiIsImZhbWlseTxQb3BwaW5zfixgQDxpbnB1dCIsImZhbWlseTxQb3BwaW5zIiwic2l6ZT5udWxsfV0sImljb25zPFJvdW5kZWQiLCI~bmVzcz50cnVlLCJ2ZXJzaW9uPjEzfQ==
 */
 
 @use '@angular/material' as mat;
@@ -11,28 +11,28 @@
 
 // Fonts
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons+Round';
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
      
 $fontConfig: (
-  display-4: mat.define-typography-level(112px, 112px, 300, 'Jost', -0.0134em),
-  display-3: mat.define-typography-level(56px, 56px, 400, 'Jost', -0.0089em),
-  display-2: mat.define-typography-level(45px, 48px, 400, 'Jost', 0.0000em),
-  display-1: mat.define-typography-level(34px, 40px, 400, 'Jost', 0.0074em),
-  headline: mat.define-typography-level(30px, 32px, 400, 'Jost', 0.0000em),
-  title: mat.define-typography-level(30px, 40px, 400, 'Jost', 0.0050em),
-  subheading-2: mat.define-typography-level(16px, 28px, 400, 'Jost', 0.0094em),
-  subheading-1: mat.define-typography-level(15px, 24px, 500, 'Jost', 0.0067em),
-  body-2: mat.define-typography-level(14px, 24px, 500, 'Jost', 0.0179em),
-  body-1: mat.define-typography-level(14px, 20px, 500, 'Jost', 0.0179em),
-  button: mat.define-typography-level(14px, 14px, 500, 'Jost', 0.0893em),
-  caption: mat.define-typography-level(12px, 20px, 400, 'Jost', 0.0250em),
-  input: mat.define-typography-level(inherit, 1.125, 400, 'Jost', 1.5px)
+  display-4: mat.define-typography-level(112px, 112px, 500, 'Poppins', -0.0134em),
+  display-3: mat.define-typography-level(56px, 56px, 500, 'Poppins', -0.0089em),
+  display-2: mat.define-typography-level(45px, 48px, 500, 'Poppins', 0.0000em),
+  display-1: mat.define-typography-level(34px, 40px, 500, 'Poppins', 0.0074em),
+  headline: mat.define-typography-level(24px, 32px, 500, 'Poppins', 0.0000em),
+  title: mat.define-typography-level(20px, 32px, 500, 'Poppins', 0.0075em),
+  subheading-2: mat.define-typography-level(16px, 28px, 500, 'Poppins', 0.0094em),
+  subheading-1: mat.define-typography-level(15px, 24px, 500, 'Poppins', 0.0067em),
+  body-2: mat.define-typography-level(14px, 24px, 300, 'Poppins', 0.0179em),
+  body-1: mat.define-typography-level(14px, 20px, 300, 'Poppins', 0.0179em),
+  button: mat.define-typography-level(14px, 14px, 500, 'Poppins', 0.0893em),
+  caption: mat.define-typography-level(12px, 20px, 400, 'Poppins', 0.0333em),
+  input: mat.define-typography-level(inherit, 1.125, 400, 'Poppins', 1.5px)
 );
 
 // Foreground Elements
 
 // Light Theme Text
-$dark-text: #393d3f;
+$dark-text: #000000;
 $dark-primary-text: rgba($dark-text, 0.87);
 $dark-accent-text: rgba($dark-primary-text, 0.54);
 $dark-disabled-text: rgba($dark-primary-text, 0.38);
@@ -59,7 +59,7 @@ $mat-light-theme-foreground: (
 );
 
 // Dark Theme text
-$light-text: #fdfdff;
+$light-text: #efe9e4;
 $light-primary-text: $light-text;
 $light-accent-text: rgba($light-primary-text, 0.7);
 $light-disabled-text: rgba($light-primary-text, 0.5);
@@ -87,7 +87,7 @@ $mat-dark-theme-foreground: (
 
 // Background config
 // Light bg
-$light-background:    #fbfffe;
+$light-background:    #f6f6f6;
 $light-bg-darker-5:   darken($light-background, 5%);
 $light-bg-darker-10:  darken($light-background, 10%);
 $light-bg-darker-20:  darken($light-background, 20%);
@@ -121,8 +121,8 @@ $dark-bg-lighter-5:   lighten($dark-background, 5%);
 $dark-bg-lighter-10:  lighten($dark-background, 10%);
 $dark-bg-lighter-20:  lighten($dark-background, 20%);
 $dark-bg-lighter-30:  lighten($dark-background, 30%);
-$light-bg-alpha-4:    rgba(#fbfffe, 0.04);
-$light-bg-alpha-12:   rgba(#fbfffe, 0.12);
+$light-bg-alpha-4:    rgba(#f6f6f6, 0.04);
+$light-bg-alpha-12:   rgba(#f6f6f6, 0.12);
 
 // Background palette for dark themes.
 $mat-dark-theme-background: (
@@ -149,18 +149,18 @@ $mat-dark-theme-background: (
 // Theme Config
 
 body {
-  --primary-color: #031d44;
-  --primary-lighter-color: #b3bbc7;
-  --primary-darker-color: #02112d;
+  --primary-color: #1f1d10;
+  --primary-lighter-color: #bcbbb7;
+  --primary-darker-color: #121109;
   --text-primary-color: #{$light-primary-text};
   --text-primary-lighter-color: #{$dark-primary-text};
   --text-primary-darker-color: #{$light-primary-text};
 }   
 $mat-primary: (
-  main: #031d44,
-  lighter: #b3bbc7,
-  darker: #02112d,
-  200: #031d44, // For slide toggle,
+  main: #1f1d10,
+  lighter: #bcbbb7,
+  darker: #121109,
+  200: #1f1d10, // For slide toggle,
   contrast : (
     main: $light-primary-text,
     lighter: $dark-primary-text,
@@ -171,42 +171,42 @@ $theme-primary: mat.define-palette($mat-primary, main, lighter, darker);
 
 
 body {
-  --accent-color: #fbfffe;
-  --accent-lighter-color: #feffff;
-  --accent-darker-color: #f9fffe;
-  --text-accent-color: #{$dark-primary-text};
+  --accent-color: #ba5a31;
+  --accent-lighter-color: #eacec1;
+  --accent-darker-color: #a33f1f;
+  --text-accent-color: #{$light-primary-text};
   --text-accent-lighter-color: #{$dark-primary-text};
-  --text-accent-darker-color: #{$dark-primary-text};
+  --text-accent-darker-color: #{$light-primary-text};
 }   
 $mat-accent: (
-  main: #fbfffe,
-  lighter: #feffff,
-  darker: #f9fffe,
-  200: #fbfffe, // For slide toggle,
+  main: #ba5a31,
+  lighter: #eacec1,
+  darker: #a33f1f,
+  200: #ba5a31, // For slide toggle,
   contrast : (
-    main: $dark-primary-text,
+    main: $light-primary-text,
     lighter: $dark-primary-text,
-    darker: $dark-primary-text,
+    darker: $light-primary-text,
   )
 );
 $theme-accent: mat.define-palette($mat-accent, main, lighter, darker);
 
 
 body {
-  --warn-color: #d33f49;
-  --warn-lighter-color: #f2c5c8;
-  --warn-darker-color: #c22931;
-  --text-warn-color: #{$light-primary-text};
+  --warn-color: #db7c26;
+  --warn-lighter-color: #f4d8be;
+  --warn-darker-color: #cd5f17;
+  --text-warn-color: #{$dark-primary-text};
   --text-warn-lighter-color: #{$dark-primary-text};
   --text-warn-darker-color: #{$light-primary-text};
 }   
 $mat-warn: (
-  main: #d33f49,
-  lighter: #f2c5c8,
-  darker: #c22931,
-  200: #d33f49, // For slide toggle,
+  main: #db7c26,
+  lighter: #f4d8be,
+  darker: #cd5f17,
+  200: #db7c26, // For slide toggle,
   contrast : (
-    main: $light-primary-text,
+    main: $dark-primary-text,
     lighter: $dark-primary-text,
     darker: $light-primary-text,
   )
@@ -257,6 +257,6 @@ $altTheme: (
   font-size: 24px;
   font-family: 'Material Icons Round', 'Material Icons';  
   .mat-badge-content {
-    font-family: 'Jost';
+    font-family: 'Poppins';
   }
 }
